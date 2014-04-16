@@ -4,8 +4,8 @@ html, body {
   width: 100%;
 }
 
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);*/
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);*/
 
 body {
   height: 84%;
