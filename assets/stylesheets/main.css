@@ -71,7 +71,7 @@ a {
 }
 
 .content-sub ul {
-  width: 70%;
+  width: 60%;
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
@@ -88,6 +88,7 @@ a {
 
 .content-sub .center-button {
   padding: 0;
+  position: relative;
 }
 
 .content-sub .button {
@@ -95,17 +96,28 @@ a {
   border-radius: 30px;
   border: solid 5px #FFF6CC;
   /*box-shadow: 0 -2px 12px -1px #FFFFFF inset, 0 2px 1px -1px #E19B3A, 0 -2px 1px -1px #FFE2BB, 0 17px 9px -10px rgba(245, 161, 99, 0.4);*/
-  box-shadow: 0 0 0.5px 0.4px #C28326 inset;
+  box-shadow: 1px 1px 0.5px 0.4px #ffeea1 inset;
   color: #fff;
   font-size: 25px;
   text-shadow: 0 1px 1px #c28326;
   font-size: 26px;
   text-transform: capitalize;
-  padding: 10px 20px;
+  padding: 10px 50px;
 }
 
 .content-sub .button:active {
   box-shadow:1px 2px 1px #000000 inset;
+}
+
+.content-sub .button:before {
+  border-radius: 30px;
+  box-shadow: 0 2px 1px #FFF6CC inset;
+  content: "";
+  height: 40px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 175px;
 }
 
 .main-footer {
