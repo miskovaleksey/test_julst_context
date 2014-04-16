@@ -1,0 +1,130 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+body {
+  height: 84%;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  min-height: 100%;
+}
+
+article {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+article h1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-uppercase {
+  text-transform: uppercase;
+}
+ 
+.text-center {
+  text-align: center;
+}
+
+.contentWrapper {
+   width: 90%;
+   margin: 0 auto;
+   max-width: 960px;
+}
+
+
+.headerBlock {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.img-main {
+    max-height: 50%;
+    text-align: center;
+    margin: 10% 0 10px 0;
+}
+
+.content {
+ background-color: #fff6cc;
+ font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.content .content-sub {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 35px 0;
+
+}
+
+.content-sub ul {
+  width: 70%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #edb800;
+}
+.content-sub li {
+  padding: 0 20px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.content-sub .center-button {
+  padding: 0;
+}
+
+.content-sub .button {
+  background: linear-gradient(to bottom, #FFD200 0%, #FFD200 50%, #FFC600 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-radius: 30px;
+  border: solid 5px #FFF6CC;
+  /*box-shadow: 0 -2px 12px -1px #FFFFFF inset, 0 2px 1px -1px #E19B3A, 0 -2px 1px -1px #FFE2BB, 0 17px 9px -10px rgba(245, 161, 99, 0.4);*/
+  box-shadow: 0 0 0.5px 0.4px #C28326 inset;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 0 1px 1px #c28326;
+  font-size: 26px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+.content-sub .button:active {
+  box-shadow:1px 2px 1px #000000 inset;
+}
+
+.main-footer {
+  height: 110px;
+  max-width: 60%;
+  margin: -112px auto 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.content-footer {
+  width: 98%;
+  background-image:url('../images/03.png');
+  background-repeat:no-repeat;
+  background-position:right; 
+  margin: 0 auto;
+}
+
+.main-footer p {
+  padding: 40px 0;
+  font-size: 12px;
+}
+
